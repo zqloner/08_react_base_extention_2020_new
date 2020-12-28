@@ -1,11 +1,11 @@
 import React,{Component} from "react";
 
-import Demo from "./02_lazyLoad";
+import Demo from "./09_renderProps";
 
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div className="appClass">
         <Demo/>
       </div>
     );
